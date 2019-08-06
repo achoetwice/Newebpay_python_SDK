@@ -2,7 +2,7 @@
 藍新金流資料加解密以及參數格式SDK Python版本\
 簡單提供了官方尚未提供的python版本資料加解密方法
 <br/>
-資料加解密方法在service_gateway\
+資料加解密方法在gateway_service\
 打包請求交易資料函式範例在services\
 發出請求的方發在view\
 \
