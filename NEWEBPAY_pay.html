@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html lang=en>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form name='newebpay' id='data_set' method='post' action={{ data.NEWEBPAY_URL }}>   
+        <input type='hidden' name='MerchantID' value={{ data.MerchantID }}><br>
+        <input type='hidden' name='TradeInfo' value={{ data.TradeInfo }}><br>
+        <input type='hidden' name='TradeSha' value={{ data.TradeSha }}><br>
+        <input type='hidden' name='Version' value={{ data.Version }}><br>
+        <script type="text/javascript">document.getElementById("data_set").submit();</script>
+    </body>
+</html>
+
